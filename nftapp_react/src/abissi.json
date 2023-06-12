@@ -1,0 +1,407 @@
+[
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "address_to_userdata",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "accType",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "studentID",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "residentialAddress",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "day",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "month",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "year",
+                "type": "uint16"
+            },
+            {
+                "internalType": "string",
+                "name": "university",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "email",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "latitude",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "longitude",
+                "type": "uint16"
+            },
+            {
+                "internalType": "string",
+                "name": "authToken",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [],
+        "name": "geoTolerance",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [],
+        "name": "nonce",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [],
+        "name": "numUsers",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "users",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "usersID",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "addr",
+                "type": "address"
+            }
+        ],
+        "name": "userExists",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "userAddress",
+                "type": "address"
+            },
+            {
+                "internalType": "string",
+                "name": "accType",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "studentID",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "residentialAddress",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "day",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "month",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "year",
+                "type": "uint16"
+            },
+            {
+                "internalType": "string",
+                "name": "university",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "email",
+                "type": "string"
+            }
+        ],
+        "name": "addUser",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "email",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "latitude",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "longitude",
+                "type": "uint16"
+            }
+        ],
+        "name": "editUser",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "userAddr",
+                "type": "address"
+            }
+        ],
+        "name": "getUserData",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "accType",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "studentID",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "residentialAddress",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "day",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "month",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "year",
+                "type": "uint16"
+            },
+            {
+                "internalType": "string",
+                "name": "university",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "email",
+                "type": "string"
+            },
+            {
+                "internalType": "uint16",
+                "name": "latitude",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "longitude",
+                "type": "uint16"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint16",
+                "name": "latitude",
+                "type": "uint16"
+            },
+            {
+                "internalType": "uint16",
+                "name": "longitude",
+                "type": "uint16"
+            }
+        ],
+        "name": "confirmLogin",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_authToken",
+                "type": "string"
+            }
+        ],
+        "name": "confirmTransaction",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [],
+        "name": "createAuthToken",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "_authToken",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "returnAuthToken",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "_authToken",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    }
+]

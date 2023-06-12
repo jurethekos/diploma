@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: normal 'trebuchet ms', arial, sans-serif;
+  background: #4a4a4a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  color: #5E85FF;
+  text-decoration: none;
+  font-size: 180%;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.navbar {
+  width: auto;
+  background: #212529;
+}
+
+h1 {
+  font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #135af2;
+}
+
+h2 {
+  margin: 10px 0 40px 0;
+  font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #1395f2;
+}
+
+h3 {
+  font-size: 140%;
+  padding: 5px 0 0 0;
+  color: #F4A006;
+}
+
+h5 {
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+h6 {
+  margin: 0 0 3px 0;
+  padding: 0 0 0 0;
+}
+
+a,
+a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #7496FF;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.loginBtn {
+  float: right;
+  margin-left: 5px;
+}
+
+.d-flex {
+  margin-top: 2%;
+}
+
+.user_name {
+  color: aliceblue;
+  margin-right: 10px;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inputs {
+  text-align: left;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.inputsBtn {
+  float: left;
+  margin-top: 10px;
+}
+
+.searchinfo {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.margin {
+  width: 19rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.card {
+  background: #b9d1ff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #9dbffd;
+  transition: 0.3s;
+}
